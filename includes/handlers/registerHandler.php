@@ -37,6 +37,7 @@ if(isSet($_POST['registerBtn'])) {
 
     $registerConfirmPassword = sanitizeFormPassword($_POST['registerConfirmPassword']);
 
+    $account->register($registerUsername, $registerFirstName, $registerLastName, $registerEmail, $registerConfirmEmail, $registerPassword, $registerConfirmPassword);
 }
 
 ?>
