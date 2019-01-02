@@ -21,26 +21,6 @@ function sanitizeFormPassword($inputText) {
     return $inputText;
 }
 
-function validateUsername($username) {
-
-}
-
-function validateFirstName($firstName) {
-
-}
-
-function validateLastName($lastName) {
-
-}
-
-function validateEmails($email, $confirmEmail) {
-
-}
-
-function validatePasswords($password, $confirmPassword) {
-
-}
-
 if(isSet($_POST['registerBtn'])) {
 
     $registerUsername = sanitizeFormUsername($_POST['registerUsername']);
@@ -56,13 +36,6 @@ if(isSet($_POST['registerBtn'])) {
     $registerPassword = sanitizeFormPassword($_POST['registerPassword']);
 
     $registerConfirmPassword = sanitizeFormPassword($_POST['registerConfirmPassword']);
-
-    validateUsername($registerUsername);
-    validateFirstName($registerFirstName);
-    validateLastName($registerLastName);
-    validateEmails($registerEmail, $registerConfirmEmail);
-    validatePasswords($registerPassword, $registerConfirmPassword);
-    
 
 }
 
