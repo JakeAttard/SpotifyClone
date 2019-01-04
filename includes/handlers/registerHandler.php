@@ -37,7 +37,11 @@ if(isSet($_POST['registerBtn'])) {
 
     $registerConfirmPassword = sanitizeFormPassword($_POST['registerConfirmPassword']);
 
-    $account->register($registerUsername, $registerFirstName, $registerLastName, $registerEmail, $registerConfirmEmail, $registerPassword, $registerConfirmPassword);
+    $wasSuccessful = $account->register($registerUsername, $registerFirstName, $registerLastName, $registerEmail, $registerConfirmEmail, $registerPassword, $registerConfirmPassword);
+
+    if($wasSuccessful) {
+        header("Location: index.php);
+    }
 }
 
 ?>
