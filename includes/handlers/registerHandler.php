@@ -40,7 +40,7 @@ if(isSet($_POST['registerBtn'])) {
     $wasSuccessful = $account->register($registerUsername, $registerFirstName, $registerLastName, $registerEmail, $registerConfirmEmail, $registerPassword, $registerConfirmPassword);
 
     if($wasSuccessful) {
-        header("Location: index.php);
+        header("Location: index.php");
     }
 }
 
