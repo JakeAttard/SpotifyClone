@@ -23,6 +23,13 @@ class Account {
         }
     }
 
+    public function getError($error) {
+        if(!in_array($error, $this->errorArray)) {
+            $error = "";
+        }
+        return "<span class='errorMessage'>$error</span>";
+    }
+
     private function validateUsername($username) {
 
         if(strlen($username) > 25 || strlen($username) < 5){
@@ -45,7 +52,7 @@ class Account {
     private function validateLastName($lastName) {
 
         if(strlen($lastName) > 25 || strlen($lastName) < 2){
-            array_push($this->errorArray, "Your last name needs to be between 5-25 characters");
+            array_push($this->errorArray, "Your last name needs to be between 2-25 characters");
             return;
         }
     }
