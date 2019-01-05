@@ -1,8 +1,14 @@
 <?php
 
 if(isSet($_POST['loginBtn'])) {
-    //Login Button was pressed
-    //echo "Login Button was pressed";
+    $username = $_POST['loginUsername'];
+    $password = $_POST['loginPassword'];
+
+    $result = $account->login($username, $password);
+
+    if($result == true) {
+        header("Location: index.php");
+    }
 }
 
 ?>
