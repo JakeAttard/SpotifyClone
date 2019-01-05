@@ -20,7 +20,7 @@ class Account {
 
         if(empty($this->errorArray)) {
             //Insert into db
-            return insertUserDetails($username, $firstName, $lastName, $email, $password);
+            return $this->insertUserDetails($username, $firstName, $lastName, $email, $password);
         } else {
             return false;
         }
@@ -49,7 +49,11 @@ class Account {
             return;
         }
 
-        // TODO: Check If Username Exists
+        $checkUsernameQuery = mysqli_query($this->con, "SELECT username FROM users WHERE username='$username'");
+        if(mysqli_num_rows($checkUsernameQuery) != 0) {
+            array_push($this->errorArray, Constants::$usernameTaken);
+            return;
+        }
 
     }
 
@@ -81,7 +85,11 @@ class Account {
             return;
         }
 
-        // TODO: Check that username hasn't been used
+        $checkEmailQuery = mysqli_query($this->con, "SELECT email FROM users WHERE email='$email'");
+        if(mysqli_num_rows($checkEmailQuery) != 0) {
+            array_push($this->errorArray, Constants::$emailTaken);
+            return;
+        }
     }
 
     private function validatePasswords($password, $confirmPassword) {
