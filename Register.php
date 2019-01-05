@@ -24,7 +24,7 @@
 </head>
 <body>
     <div id="background">
-        <div id="loginContainer"
+        <div id="loginContainer">
             <div id="inputContainer">
                 <form id="loginForm" action="register.php" method="POST">
                     <h2>Login To Account</h2>
