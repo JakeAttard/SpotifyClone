@@ -3,7 +3,7 @@
     include("includes/classes/Account.php");
     include("includes/classes/Constants.php");
 
-    $account = new Account();
+    $account = new Account($con);
 
     include("includes/handlers/registerHandler.php");
     include("includes/handlers/loginHandler.php");
@@ -24,7 +24,7 @@
 <body>
 
     <div id="inputContainer">
-        <form id="loginForm" action="Register.php" method="POST">
+        <form id="loginForm" action="register.php" method="POST">
             <h2>Login To Account</h2>
             <p>
                 <label for="loginUsername">Username</label>
@@ -38,7 +38,7 @@
             <button type="submit" name="loginBtn">LOG IN</button>
         </form>
 
-        <form id="registerForm" action="Register.php" method="POST">
+        <form id="registerForm" action="register.php" method="POST">
             <h2>Create your free account</h2>
             <p>
                 <?php echo $account->getError(Constants::$usernameCharacters); ?>
