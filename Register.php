@@ -39,6 +39,10 @@
                     </p>
 
                     <button type="submit" name="loginBtn">LOG IN</button>
+
+                    <div class="hasAccountText">
+                       <span id="hideLogin">Don't have an account yet? Signup here.</span>
+                    </div>
                 </form>
 
                 <form id="registerForm" action="register.php" method="POST">
@@ -83,6 +87,11 @@
                     </p>
 
                     <button type="submit" name="registerBtn">SIGN UP</button>
+
+                    <div class="hasAccountText">
+                        <span id="hideRegister">Already have an account? Log in here.</span>
+                    </div>
+
                 </form>
             </div>
         </div>
