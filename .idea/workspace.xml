@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/register.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+            <state relative-caret-position="620">
+              <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -164,6 +164,13 @@
               <item name="SpotifyClone" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpotifyClone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpotifyClone" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="profile-pics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,12 +233,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546310588095</updated>
       <workItem from="1546310590747" duration="36000" />
-      <workItem from="1546852412477" duration="877000" />
+      <workItem from="1546852412477" duration="1773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29788000" />
+    <option name="totallyTimeSpent" value="30684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -341,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+        <state relative-caret-position="620">
+          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
         </state>
       </provider>
     </entry>
