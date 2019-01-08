@@ -80,3 +80,21 @@ html, body {
     display: inline-flex;
     cursor: pointer;
 }
+
+.progressBarBg {
+    background-color: #404040;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.progress {
+    background-color: #a0a0a0;
+    height: 4px;
+    width: 0;
+    border-radius: 2px;
+}
+
+.playBackBar .progressBar {
+    margin-top: 3px;
+}
