@@ -10,5 +10,11 @@ html, body {
     bottom: 0;
     position: fixed;
     min-width: 620px;
-    height: 100px; /* Remove Later */
+}
+
+#nowPlayingBar {
+    display: flex;
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
 }
