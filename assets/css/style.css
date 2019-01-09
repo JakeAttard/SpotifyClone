@@ -142,3 +142,8 @@ html, body {
 .volumeBar .progressBar {
     width: 125px;
 }
+
+#topContainer {
+    min-height: 100%;
+    width: 100%;
+}
