@@ -26,6 +26,14 @@ if(isset($_SESSION['userLoggedIn'])) {
                     <span class="albumLink">
                         <img src="https://i.ytimg.com/vi/rb8Y38eilRM/maxresdefault.jpg" class="albumArtWork">
                     </span>
+                    <div class="trackInfo">
+                        <span class="trackName">
+                            <span>Happy Birthday</span>
+                        </span>
+                        <span class="artistName">
+                            <span>Jake Attard</span>
+                        </span>
+                    </div>
                 </div>
             </div>
             <div id="nowPlayingCentre">
