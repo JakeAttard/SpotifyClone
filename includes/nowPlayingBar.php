@@ -24,7 +24,18 @@ $jsonArray = json_encode($resultArray);
         if(play) {
             audioElement.play();
         }
+    }
 
+    function playSong() {
+        $(".controlButton.play").hide();
+        $(".controlButton.pause").show();
+        audioElement.play();
+    }
+
+    function pauseSong() {
+        $(".controlButton.play").show();
+        $(".controlButton.pause").hide();
+        audioElement.pause();
     }
 
 </script>
@@ -57,10 +68,10 @@ $jsonArray = json_encode($resultArray);
                     <button class="controlButton previous" title="Previous button">
                         <img src="assets/images/icons/previous.png" alt="Previous">
                     </button>
-                    <button class="controlButton play" title="Play button">
+                    <button class="controlButton play" title="Play button" onclick="playSong()">
                         <img src="assets/images/icons/play.png" alt="Play">
                     </button>
-                    <button class="controlButton pause" title="Pause button" style="display: none";>
+                    <button class="controlButton pause" title="Pause button" style="display: none"; onclick="pauseSong()">
                         <img src="assets/images/icons/pause.png" alt="Pause">
                     </button>
                     <button class="controlButton next" title="Next button">
