@@ -20,6 +20,9 @@ if(isset($_SESSION['userLoggedIn'])) {
     <title>SpotifyClone</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="assets/js/script.js"></script>
+
 </head>
 <body>
 
