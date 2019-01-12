@@ -24,7 +24,14 @@ $jsonArray = json_encode($resultArray);
 
             var track = JSON.parse(data);
 
-            console.log(track);
+            $(".trackName span").text(track.title);
+
+            $.post("includes/handlers/ajax/getArtistJson.php", { artistId: track.artist }, function(data) {
+                var artist = JSON.parse(data);
+
+                $(".artistName span").text(artist.name);
+            });
+
             audioElement.setTrack(track.path);
             audioElement.play();
         });
@@ -58,10 +65,10 @@ $jsonArray = json_encode($resultArray);
                     </span>
                 <div class="trackInfo">
                         <span class="trackName">
-                            <span>Happy Birthday</span>
+                            <span></span>
                         </span>
                     <span class="artistName">
-                            <span>Jake Attard</span>
+                            <span></span>
                         </span>
                 </div>
             </div>
