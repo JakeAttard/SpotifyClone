@@ -19,6 +19,11 @@ $jsonArray = json_encode($resultArray);
     });
 
     function setTrack(trackId, newPlaylist, play) {
+        audioElement.setTrack("assets/music/bensound-goinghigher.mp3");
+
+        if(play) {
+            audioElement.play();
+        }
 
     }
 
