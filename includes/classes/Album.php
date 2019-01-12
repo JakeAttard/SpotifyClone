@@ -34,7 +34,7 @@ class Album {
         return $this->genre;
     }
 
-    public function artworkPath() {
+    public function getArtworkPath() {
         return $this->artworkPath;
     }
 }
