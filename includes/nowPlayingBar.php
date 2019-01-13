@@ -75,6 +75,13 @@ $jsonArray = json_encode($resultArray);
     }
 
     function nextSong() {
+
+        if(repeat == true) {
+            audioElement.setTime(0);
+            playSong();
+            return;
+        }
+
         if(currentIndex == currentPlaylist.length - 1) {
             currentIndex = 0;
         } else {
@@ -86,10 +93,11 @@ $jsonArray = json_encode($resultArray);
     }
 
     function setTrack(trackId, newPlaylist, play) {
+        
+        currentIndex = currentPlaylist.indexOf(trackId);
+        pauseSong();
 
         $.post("includes/handlers/ajax/getSongJson.php", { songId: trackId }, function(data) {
-
-            currentIndex = currentPlaylist.indexOf(trackId);
 
             var track = JSON.parse(data);
 
@@ -169,7 +177,7 @@ $jsonArray = json_encode($resultArray);
                     <button class="controlButton pause" title="Pause button" style="display: none"; onclick="pauseSong()">
                         <img src="assets/images/icons/pause.png" alt="Pause">
                     </button>
-                    <button class="controlButton next" title="Next button">
+                    <button class="controlButton next" title="Next button" onclick="nextSong()">
                         <img src="assets/images/icons/next.png" alt="Next">
                     </button>
                     <button class="controlButton repeat" title="Repeat button">
