@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/nowPlayingBar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+            <state relative-caret-position="500">
+              <caret line="188" column="99" selection-start-line="188" selection-start-column="99" selection-end-line="188" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -285,12 +285,12 @@
       <workItem from="1547199569703" duration="5727000" />
       <workItem from="1547259484574" duration="11846000" />
       <workItem from="1547299882547" duration="4123000" />
-      <workItem from="1547371229119" duration="4344000" />
+      <workItem from="1547371229119" duration="4938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70057000" />
+    <option name="totallyTimeSpent" value="70651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="972" extended-state="0" />
@@ -501,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/nowPlayingBar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        <state relative-caret-position="500">
+          <caret line="188" column="99" selection-start-line="188" selection-start-column="99" selection-end-line="188" selection-end-column="99" />
         </state>
       </provider>
     </entry>
