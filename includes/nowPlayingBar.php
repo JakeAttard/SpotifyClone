@@ -108,9 +108,15 @@ $jsonArray = json_encode($resultArray);
     }
 
     function setMute() {
-        audioElement.audio.muted = !audioElement.audio.muted
+        audioElement.audio.muted = !audioElement.audio.muted;
         var imageName = audioElement.audio.muted ? "volume-mute.png" : "volume.png";
         $(".controlButton.volume img").attr("src", "assets/images/icons/" + imageName);
+    }
+
+    function setShuffle() {
+        shuffle = !shuffle;
+        var imageName = shuffle ? "shuffle-active.png" : "shuffle.png";
+        $(".controlButton.shuffle img").attr("src", "assets/images/icons/" + imageName);
     }
 
     function setTrack(trackId, newPlaylist, play) {
@@ -186,7 +192,7 @@ $jsonArray = json_encode($resultArray);
         <div id="nowPlayingCentre">
             <div class="content playerControls">
                 <div class="buttons">
-                    <button class="controlButton shuffle" title="Shuffle button">
+                    <button class="controlButton shuffle" title="Shuffle button" onclick="setShuffle()">
                         <img src="assets/images/icons/shuffle.png" alt="Shuffle">
                     </button>
                     <button class="controlButton previous" title="Previous button" onclick="previousSong()">
