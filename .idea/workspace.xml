@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/album.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="39" column="146" selection-start-line="39" selection-start-column="146" selection-end-line="39" selection-end-column="146" />
+            <state relative-caret-position="455">
+              <caret line="39" column="116" lean-forward="true" selection-start-line="39" selection-start-column="116" selection-end-line="39" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -286,12 +286,12 @@
       <workItem from="1547259484574" duration="11846000" />
       <workItem from="1547299882547" duration="4123000" />
       <workItem from="1547371229119" duration="6056000" />
-      <workItem from="1547450006649" duration="5000000" />
+      <workItem from="1547450006649" duration="5500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76769000" />
+    <option name="totallyTimeSpent" value="77269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="972" extended-state="0" />
@@ -502,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/album.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="39" column="146" selection-start-line="39" selection-start-column="146" selection-end-line="39" selection-end-column="146" />
+        <state relative-caret-position="455">
+          <caret line="39" column="116" lean-forward="true" selection-start-line="39" selection-start-column="116" selection-end-line="39" selection-end-column="116" />
         </state>
       </provider>
     </entry>
