@@ -10,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/nowPlayingBar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="164" column="89" selection-start-line="164" selection-start-column="89" selection-end-line="164" selection-end-column="89" />
+            <state relative-caret-position="655">
+              <caret line="172" column="98" selection-start-line="172" selection-start-column="98" selection-end-line="172" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="391" column="23" lean-forward="true" selection-start-line="391" selection-start-column="23" selection-end-line="391" selection-end-column="23" />
+            <state relative-caret-position="719">
+              <caret line="395" column="19" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -87,15 +96,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="530">
               <caret line="54" column="22" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="54" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/classes/Song.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -142,10 +142,11 @@
         <option value="$PROJECT_DIR$/browse.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/classes/Artist.php" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
         <option value="$PROJECT_DIR$/artist.php" />
         <option value="$PROJECT_DIR$/includes/nowPlayingBar.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/search.php" />
       </list>
     </option>
   </component>
@@ -290,12 +291,12 @@
       <workItem from="1547299882547" duration="4123000" />
       <workItem from="1547371229119" duration="6056000" />
       <workItem from="1547450006649" duration="10369000" />
-      <workItem from="1547513954826" duration="3093000" />
+      <workItem from="1547513954826" duration="4013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85231000" />
+    <option name="totallyTimeSpent" value="86151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="972" extended-state="0" />
@@ -504,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="391" column="23" lean-forward="true" selection-start-line="391" selection-start-column="23" selection-end-line="391" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -527,8 +521,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/nowPlayingBar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="164" column="89" selection-start-line="164" selection-start-column="89" selection-end-line="164" selection-end-column="89" />
+        <state relative-caret-position="655">
+          <caret line="172" column="98" selection-start-line="172" selection-start-column="98" selection-end-line="172" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="395" column="19" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
         </state>
       </provider>
     </entry>
