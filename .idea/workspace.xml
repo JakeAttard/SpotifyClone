@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+            <state relative-caret-position="619">
+              <caret line="74" column="6" lean-forward="true" selection-start-line="24" selection-end-line="74" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="12" column="163" selection-start-line="12" selection-start-column="163" selection-end-line="12" selection-end-column="163" />
+            <state relative-caret-position="569">
+              <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -150,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="3026" />
@@ -291,12 +291,12 @@
       <workItem from="1547299882547" duration="4123000" />
       <workItem from="1547371229119" duration="6056000" />
       <workItem from="1547450006649" duration="10369000" />
-      <workItem from="1547513954826" duration="5198000" />
+      <workItem from="1547513954826" duration="6031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87336000" />
+    <option name="totallyTimeSpent" value="88169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="972" extended-state="0" />
@@ -505,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -533,10 +526,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="74" column="6" lean-forward="true" selection-start-line="24" selection-end-line="74" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="163" selection-start-line="12" selection-start-column="163" selection-end-line="12" selection-end-column="163" />
+        <state relative-caret-position="569">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
         </state>
       </provider>
     </entry>
