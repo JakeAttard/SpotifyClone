@@ -35,6 +35,16 @@ function formatTime(seconds) {
     return minutes + ":" + extraZero + seconds;
 }
 
+function createPlaylist(username) {
+    var alert = prompt("Please enter the name of your playlist");
+
+    if(alert != null) {
+        $.post("includes/handlers/ajax/createPlaylist.php", { name: alert, username: username }).done(function() {
+            openPage("yourMusic.php");
+        });
+    }
+}
+
 function updateTimeProgressBar(audio) {
     $(".progressTime.current").text(formatTime(audio.currentTime));
     $(".progressTime.remaining").text(formatTime(audio.duration - audio.currentTime));
