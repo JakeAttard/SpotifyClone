@@ -41,20 +41,20 @@ $artist = $album->getArtist();
                         <img class='play' src='assets/images/icons/play-white.png' onclick='setTrack(\"". $albumSong->getId() ."\", tempPlaylist, true)'>
                         <span class='trackNumber'>$i</span>
                     </div>
-                    
+
                     <div class='trackInfo'>
                         <span class='trackName'>" . $albumSong->getTitle() . "</span>
                         <span class='artistName'>" . $albumArtist->getName() . "</span>
                     </div>
-                    
+
                     <div class='trackOptions'>
                         <img class='optionsButton' src='assets/images/icons/more.png'>
                     </div>
-                    
+
                     <div class='trackDuration'>
                         <span class='duration'>" . $albumSong->getDuration() . "</span>
                     </div>
-                    
+
                   </li>";
 
             $i++;
@@ -69,3 +69,10 @@ $artist = $album->getArtist();
 
     </ul>
 </div>
+
+<nav class="optionsMenu">
+  <input type="hidden" class="songId">
+  <div class="item">Add to playlist</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</nav>
