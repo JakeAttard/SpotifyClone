@@ -64,6 +64,18 @@ function formatTime(seconds) {
     return minutes + ":" + extraZero + seconds;
 }
 
+function removeFromPlaylist(button, playlistId) {
+    var songId = $(button).prevAll(".songId").val();
+
+    $.post("includes/handlers/ajax/removeFromPlaylist.php", { playlistId: playlistId, songId: songId }).done(function(error) {
+        if(error != "") {
+            alert(error);
+            return;
+        }
+        openPage("playlist.php?id=" + playlistId);
+    });
+}
+
 function createPlaylist() {
     var popup = prompt("Please enter the name of your playlist");
 
