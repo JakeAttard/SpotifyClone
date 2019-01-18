@@ -74,19 +74,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/updateDetails.php">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+            <state relative-caret-position="745">
+              <caret line="520" column="21" selection-start-line="520" selection-start-column="21" selection-end-line="520" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playlist.php">
+        <entry file="file://$PROJECT_DIR$/updateDetails.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="77" column="80" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
+            <state relative-caret-position="400">
+              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/artist.php" />
         <option value="$PROJECT_DIR$/playlist.php" />
         <option value="$PROJECT_DIR$/includes/handlers/ajax/removeFromPlaylist.php" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/settings.php" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
         <option value="$PROJECT_DIR$/includes/handlers/ajax/logout.php" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/classes/User.php" />
         <option value="$PROJECT_DIR$/updateDetails.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -309,12 +309,12 @@
       <workItem from="1547718243819" duration="580000" />
       <workItem from="1547727028945" duration="606000" />
       <workItem from="1547730492244" duration="1437000" />
-      <workItem from="1547772990181" duration="9256000" />
+      <workItem from="1547772990181" duration="10386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112829000" />
+    <option name="totallyTimeSpent" value="113959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -551,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="479" column="26" lean-forward="true" selection-start-line="479" selection-start-column="26" selection-end-line="479" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playlist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1925">
@@ -630,8 +623,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/updateDetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+        <state relative-caret-position="400">
+          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="520" column="21" selection-start-line="520" selection-start-column="21" selection-end-line="520" selection-end-column="21" />
         </state>
       </provider>
     </entry>
