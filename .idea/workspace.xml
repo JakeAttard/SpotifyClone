@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/album.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+            <state relative-caret-position="581">
+              <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,20 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/classes/Playlist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="421">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11925">
-              <caret line="477" column="26" selection-start-line="477" selection-start-column="26" selection-end-line="477" selection-end-column="26" />
+            <state relative-caret-position="720">
+              <caret line="485" column="26" selection-start-line="485" selection-start-column="26" selection-end-line="485" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -149,10 +149,10 @@
         <option value="$PROJECT_DIR$/yourMusic.php" />
         <option value="$PROJECT_DIR$/playlist.php" />
         <option value="$PROJECT_DIR$/includes/handlers/ajax/deletePlaylist.php" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/album.php" />
         <option value="$PROJECT_DIR$/includes/classes/Playlist.php" />
+        <option value="$PROJECT_DIR$/album.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -304,12 +304,12 @@
       <workItem from="1547718243819" duration="580000" />
       <workItem from="1547727028945" duration="606000" />
       <workItem from="1547730492244" duration="1437000" />
-      <workItem from="1547772990181" duration="297000" />
+      <workItem from="1547772990181" duration="1107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103870000" />
+    <option name="totallyTimeSpent" value="104680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -539,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/album.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/classes/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -567,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11925">
-          <caret line="477" column="26" selection-start-line="477" selection-start-column="26" selection-end-line="477" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playlist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -590,8 +576,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/classes/Playlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="421">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="485" column="26" selection-start-line="485" selection-start-column="26" selection-end-line="485" selection-end-column="26" />
         </state>
       </provider>
     </entry>
