@@ -14,7 +14,7 @@
         $emailTo = $_POST["email"];
 
         $code = uniqid(true);
-        $query = mysqli_query($con, "INSERT INTO resetPasswords(code, email) VALUES('$code', '$emailTo')");
+        $query = mysqli_query($con, "INSERT INTO resetpasswords(code, email) VALUES('$code', '$emailTo')");
 
         if(!$query) {
             exit("Error");
