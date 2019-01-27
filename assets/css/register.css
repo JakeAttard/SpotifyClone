@@ -97,6 +97,17 @@ html, body {
     cursor: pointer;
 }
 
+#loginContainer #inputContainer .forgotPassword a {
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.forgotPassword {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .hasAccountText span {
     font-weight: bold;
     font-size: 12px;
@@ -143,4 +154,3 @@ padding: 0;
     font-size: 12px;
     display: block;
 }
-

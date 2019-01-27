@@ -62,7 +62,9 @@
 
                     <button type="submit" name="loginBtn">LOG IN</button>
 
+                    <div class="forgotPassword">
                         <a href="requestReset.php">Forgot Password?</a>
+                    </div>    
 
                     <div class="hasAccountText">
                        <span id="hideLogin">Don't have an account yet? Signup here.</span>
