@@ -7,10 +7,18 @@
     require 'PHPMailer/src/Exception.php';
     require 'PHPMailer/src/PHPMailer.php';
     require 'PHPMailer/src/SMTP.php';
+    require 'includes/config.php';
 
     if(isset($_POST["email"])) {
 
         $emailTo = $_POST["email"];
+
+        $code = uniqid(true);
+        $query = mysqli_query($con, "INSERT INTO resetPasswords(code, email) VALUES('$code', '$emailTo')");
+
+        if(!$query) {
+            exit("Error");
+        }
 
         $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
         try {
@@ -29,16 +37,18 @@
             $mail->addReplyTo('jake@jakeattard.com', 'Information');
     
             //Content
+            $url = "http://" . $_SERVER["HTTP_HOST"] . dirname($_SERVER["PHP_SELF"]) . "/resetPassword.php?code=$code";
             $mail->isHTML(true);                                  // Set email format to HTML
-            $mail->Subject = 'Here is the subject';
-            $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+            $mail->Subject = 'SpotifyClone password reset link';
+            $mail->Body    = "<h1>You request for a password reset.</h1> Click <a href='$url'>this link</a> to do so.";
             $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     
             $mail->send();
-            echo 'Message has been sent';
+            echo 'Reset password link has been sent to your email';
         } catch (Exception $e) {
             echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
         }
+        exit();
     }
 
 ?>
