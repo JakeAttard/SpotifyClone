@@ -27,7 +27,7 @@
             $mail->Host = 'premium28.web-hosting.com';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'jake@jakeattard.com';                 // SMTP username
-            $mail->Password = 'jake2835';                           // SMTP password
+            $mail->Password = '';                           // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port to connect to
     
@@ -53,8 +53,10 @@
 
 ?>
 
-<form method="POST">
-    <input type="text" name="email" placeholder="Email" autocomplete="off">
-    <br>
-    <input type="submit" name="submit" value="Reset email">
-</form>
+<div class="requestResetForm">
+    <form method="POST">
+        <input type="text" name="email" placeholder="Email" autocomplete="off">
+        <br>
+        <input type="submit" name="submit" value="Reset email">
+    </form>
+</div>
